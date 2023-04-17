@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 800px;
+	height: 420px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width: 170px;
+	height: 170px;
+	background: red;
+	position: absolute;
+	top: 125px;
+	left: 320px;
+	border-radius: 100px;
+	z-index: 5;
+}
+.fb{
+	width: 250px;
+	height: 60px;
+	top: 150px;
+	right: -150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.fb:hover{
+	width: 250px;
+	height: 60px;
+	top: 150px;
+	right: 2px;
+	position: fixed;
+}
+
+.tt{
+	width: 250px;
+	height: 60px;
+	top: 220px;
+	right: -150px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.tt:hover{
+	width: 250px;
+	height: 60px;
+	top: 220px;
+	right: 2px;
+	position: fixed;
+}
+.yt{
+	width: 250px;
+	height: 60px;
+	top: 280px;
+	right: -160px;
+	position: fixed;
+	cursor: pointer;
+	transition: 1s;
+
+}
+
+.yt:hover{
+	width: 250px;
+	height: 60px;
+	top: 280px;
+	right: 2px;
+	position: fixed;
+}
